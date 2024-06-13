@@ -41,7 +41,9 @@ const Projects = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-2">
-                    <h3 className="text-xl font-bold">Project 1</h3>
+                    <h3 className="text-xl font-bold text-teal-500">
+                      Project 1
+                    </h3>
                     <p className="text-gray-500 dark:text-gray-400">
                       A modern web application built with React, Next.js, and
                       Tailwind CSS.
@@ -49,7 +51,7 @@ const Projects = () => {
                     <div className="flex gap-2">
                       <Link
                         href="#"
-                        className="inline-flex h-8 items-center justify-center rounded-md bg-gray-900 px-4 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                        className="inline-flex h-8 items-center justify-center rounded-md bg-teal-700 px-4 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-teal-700/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-teal-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-teal-50 dark:text-teal-900 dark:hover:bg-teal-50/90 dark:focus-visible:ring-teal-300"
                         prefetch={false}
                       >
                         Live Demo
