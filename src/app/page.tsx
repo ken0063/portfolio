@@ -1,4 +1,4 @@
-import { AboutMe, Header, Landing } from "@/components";
+import { Projects, Header, Landing } from "@/components";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <Landing />
       </div>
       <div className="w-screen h-screen flex justify-left items-center">
-        <AboutMe />
+        <Projects />
       </div>
     </section>
   );

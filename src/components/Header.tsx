@@ -18,10 +18,10 @@ const Header = () => {
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}
         >
-          About
+          Home
         </Link>
         <Link
-          href="#"
+          href="#projects"
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}
         >

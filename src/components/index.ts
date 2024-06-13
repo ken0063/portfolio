@@ -1,5 +1,5 @@
 import Header from "./Header";
 import Landing from "./Landing";
-import AboutMe from "./AboutMe";
+import Projects from "./Projects";
 
-export { Header, Landing, AboutMe };
+export { Header, Landing, Projects };
