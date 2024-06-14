@@ -1,17 +1,13 @@
-import { Projects, Header, Landing } from "@/components";
+import { Projects, Header, Landing, Skills, Contact } from "@/components";
 
 export default function Home() {
   return (
-    <section className="flex flex-col min-h-[100dvh]">
-      <div className="mx-4">
-        <Header />
-      </div>
-      <div className="w-screen h-screen flex justify-left items-center">
-        <Landing />
-      </div>
-      <div className="w-screen h-screen flex justify-left items-center">
-        <Projects />
-      </div>
+    <section className="mt-10 md:mt-0">
+      <Header />
+      <Landing />
+      <Projects />
+      <Skills />
+      <Contact />
     </section>
   );
 }
