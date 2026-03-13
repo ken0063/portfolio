@@ -33,7 +33,7 @@ export function AboutSection() {
         <div className="space-y-8 relative pl-6 before:absolute before:inset-y-0 before:left-0 before:w-px before:bg-(--text-muted)/20">
           {[
             { title: "Chemical Engineering Roots.", text: 'Master of Engineering from University of Lagos (2019), bringing analytical precision from physical systems into software architecture.' },
-            { title: 'Full-Stack Architecture.', text: 'Passionate about React, Next.js, and Node.js, engineering solutions where performance meets intuitive design.' },
+            { title: 'Frontend Architecture.', text: 'Passionate about React, Next.js, and Vite, engineering solutions where performance meets intuitive design.' },
             { title: 'Technical Leadership.', text: 'Over 2 years leading engineering teams, managing SaaS life cycles, and implementing core architectural patterns.' },
           ].map((item, i) => (
             <motion.div
