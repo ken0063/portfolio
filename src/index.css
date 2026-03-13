@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-dark: #070715;
+  --color-secondary-dark: #12122b;
+  --color-accent: #00e0ff;
+  --color-accent-dark: #00a8cc;
+  --color-text-dark: #eef2f6;
+  --color-text-muted-dark: #8b92a5;
+
+  --color-primary-light: #f4f5f8;
+  --color-secondary-light: #ffffff;
+  --color-text-light: #1a1a2e;
+  --color-text-muted-light: #525c76;
+
+  --font-primary: "Outfit", "Inter", sans-serif;
+  --font-mono: "Fira Code", monospace;
+}
+
+@layer base {
+  :root {
+    --bg-primary: var(--color-primary-light);
+    --bg-secondary: var(--color-secondary-light);
+    --text-primary: var(--color-text-light);
+    --text-muted: var(--color-text-muted-light);
+    --color-accent-current: var(--color-accent-dark);
+  }
+
+  .dark {
+    --bg-primary: var(--color-primary-dark);
+    --bg-secondary: var(--color-secondary-dark);
+    --text-primary: var(--color-text-dark);
+    --text-muted: var(--color-text-muted-dark);
+    --color-accent-current: var(--color-accent);
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px var(--color-accent-current);
+  }
+  .bg-glow {
+    box-shadow: 0 0 15px var(--color-accent-current);
+  }
+}
